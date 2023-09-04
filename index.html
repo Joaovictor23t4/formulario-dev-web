@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+            <div id="titulo">
+                <h1>CADASTRO</h1>
+            </div>
+            <div id="subtitulo">
+                <h2>
+                    Por favor, para entrar, insira suas informações!
+                </h2>
+            </div>
+            <div id="inputs">
+                <input type="text" name="campo_nome" id="idNome" placeholder="Nome" required>
+                <input type="text" name="campo_sobrenome" id="idSobrenome" placeholder="Sobrenome" required>
+                <input type="date" name="campo_data" id="idData">
+
+                <br>
+
+                <label for="" id="idSexo">Sexo: </label>
+                
+                <label>
+                    <input type="radio" name="campo_sexo" value="Masculino"> Masculino
+                </label>
+                <label>
+                    <input type="radio" name="campo_sexo" value="Feminino"> Feminino
+                </label>
+                <label>
+                    <input type="radio" name="campo_sexo" value="Outro"> Outro
+                </label>
+
+                <input type="text" name="campo_cidade" id="idCidade" placeholder="Cidade" required>
+                <input type="text" name="campo_estado" id="idEstado" placeholder="Estado" required>
+                <input type="text" name="campo_cep" id="idCep" placeholder="CEP" required>
+                <input type="text" name="campo_telefone" id="idTelefone" placeholder="Telefone" required>
+                <input type="text" name="campo_email" id="inEmail" placeholder="Email" required>
+                <input type="password" name="campo_senha" id="inSenha" placeholder="Password" required>
+            </div>
+
+            <div id="botaoLogin">
+                <input type="submit" value="Login" id="btLogin">
+            </div>
+            <div id="redes-sociais">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div id="cadastrar">
+                <p>Já tem uma conta? <a href="#">Logue</a> </h3>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
