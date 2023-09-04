@@ -39,7 +39,7 @@ section {
     margin-bottom: 40px;
 }
 
-input {
+input, select {
     display: block;
     margin: auto;
     width: 100%;
@@ -52,6 +52,15 @@ input {
     margin-bottom: 15px;
     font-size: 1.1em;
     color: #fff;
+}
+
+select > option {
+    color: #000;
+}
+
+#lbGenero {
+    margin-bottom: 10px;
+    display: block;
 }
 
 #inEmail, #inSenha {
